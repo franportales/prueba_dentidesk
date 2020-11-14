@@ -75,7 +75,7 @@ if(isset($_SESSION['customer_id'])){
                                     <label for="" class="error" style="display:none;"></label> 
                                     
                                     
-                                    <label>Fecha de nacimiento</label>
+                                    <label>Rut</label>
                                     <input type="text" id ="rut" name="rut" value="<?php echo $customer->rut; ?>" placeholder="12.345.678-9" required>
                                     <label for="" class="error" style="display:none;"></label> 
                                 </div>

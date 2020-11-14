@@ -13,7 +13,7 @@ $customer = new CustomerController();
 $info     = array();
 
 
-    $authentication = $customer->getByEmail(trim($email), trim($pass));
+    $authentication = $customer->getByEmail(trim($email), trim(md5($pass)));
     if ($authentication==0) {
         $estado = 2;
     } else{

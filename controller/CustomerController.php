@@ -74,6 +74,15 @@ class CustomerController
         return 0;
         
     }
+
+    public function insertCustomer($customer)
+    {
+        $sql = "INSERT INTO customer (name,lastname,email,password,phone,rut) VALUES ('".$customer->name."','".$customer->lastname."','".$customer->email."', '".$customer->passwd."',".$customer->phone.", '".$customer->rut."')";
+        //var_dump($sql);
+        $custom = $GLOBALS['bd_central']->getResultUpInDe($sql);
+        return $custom;
+    }
+
     public function UpdateCustomer($customer)
     {
         
