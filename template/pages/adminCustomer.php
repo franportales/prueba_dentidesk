@@ -30,8 +30,7 @@ if(isset($_SESSION['customer_id']) && $_SESSION['profile_id']==1){
   <script type="text/javascript" src="../asset/js/login.js"></script>
   <script type="text/javascript" src="../asset/js/customer.js"></script>
   <script type="text/javascript" src="../asset/js/mainv2.js"></script>
-  <script type="text/javascript" src="../asset/js/slick.min.js"></script>
-  <script type="text/javascript" src="../asset/js/lity.min.js"></script>
+
   
 </head>
 <body class="la-barra">
@@ -45,7 +44,7 @@ if(isset($_SESSION['customer_id']) && $_SESSION['profile_id']==1){
                 <div class="col-md-4">
                     <div class="menu-cuenta">
                         <ul>
-                            <li><a href="{$link->getPageLink('identity')|escape:'html'}"><i class="icon-usuario"></i>Datos personales</a></li>
+                            <li><a href=""><i class="icon-usuario"></i>Lista de usuarios</a></li>
                         </ul>
                     </div>
                 </div>

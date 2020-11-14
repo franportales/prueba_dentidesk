@@ -29,8 +29,7 @@ if(isset($_SESSION['customer_id'])){
   <script type="text/javascript" src="../asset/js/login.js"></script>
   <script type="text/javascript" src="../asset/js/customer.js"></script>
   <script type="text/javascript" src="../asset/js/mainv2.js"></script>
-  <script type="text/javascript" src="../asset/js/slick.min.js"></script>
-  <script type="text/javascript" src="../asset/js/lity.min.js"></script>
+
   
 </head>
 <body class="la-barra">
